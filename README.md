@@ -1,5 +1,7 @@
 # header-sentry
 
+[![Tests](https://github.com/alefkaue/header-sentry/actions/workflows/tests.yml/badge.svg)](https://github.com/alefkaue/header-sentry/actions/workflows/tests.yml)
+
 Auditoria offline de cabeçalhos HTTP. Projeto independente de portfólio voltado a **AppSec / análise de configuração**.
 
 Analisa cabeçalhos HTTP exportados, sem enviar requisições a servidores.
@@ -17,6 +19,8 @@ python header_sentry.py examples/headers.txt --https
 ```
 
 As ferramentas escrevem JSON em stdout. Use `--help` para consultar opções. Exemplos são sintéticos e não contêm dados reais.
+
+O exemplo com `--https` retorna quatro regras: `missing_csp`, `framing`, `referrer_policy` e `hsts`. `nosniff` já está configurado. O código de saída é **1**, indicando achados. Sem `--https`, HSTS não é avaliado.
 
 ## Testes
 
