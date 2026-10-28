@@ -1,7 +1,5 @@
 # header-sentry
 
-**Área do portfólio:** [Cybersecurity](https://github.com/alefkaue#cybersecurity) · **Contexto:** Projeto pessoal
-
 [![Tests](https://github.com/alefkaue/header-sentry/actions/workflows/tests.yml/badge.svg)](https://github.com/alefkaue/header-sentry/actions/workflows/tests.yml)
 
 Auditoria offline de cabeçalhos HTTP. Projeto independente de portfólio voltado a **AppSec / análise de configuração**.
